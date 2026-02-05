@@ -1,0 +1,6 @@
+README.md
+task
+task.c
+thread1.txt
+thread2.txt
+thread3.txt
