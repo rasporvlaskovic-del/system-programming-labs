@@ -27,8 +27,9 @@
    gcc -Wall -Wextra -o task task.c
 
 2. Запустить программу:
-```bash
-./task
+
+   ```bash
+   ./task
 
 
 ### Итог:
