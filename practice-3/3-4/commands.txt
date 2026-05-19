@@ -1,0 +1,10 @@
+# Запуск двух сетевых процессов в фоне
+python3 -m http.server 8081 &
+python3 -m http.server 8082 &
+
+# Проверка открытых портов 
+netstat -tuln | grep python
+
+# Завершение процессов
+kill %1
+kill %2
